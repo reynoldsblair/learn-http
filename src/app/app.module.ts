@@ -5,19 +5,19 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
 
-
-
 import { AppComponent } from './app.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { HttpRequestInterceptor } from './services/interceptor';
 import { HttpMockRequestInterceptor } from './services/interceptor.mock';
+import { QuerySpecsComponent } from './query-specs/query-specs.component';
 
 export const isMock = environment.mock;
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserListComponent
+    UserListComponent,
+    QuerySpecsComponent
   ],
   imports: [
     BrowserModule,
@@ -34,3 +34,5 @@ export const isMock = environment.mock;
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
