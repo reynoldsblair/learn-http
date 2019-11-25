@@ -1,0 +1,346 @@
+{
+  "data": {
+      "informationModels": [
+          {
+              "querySpecs": [
+                  {
+                      "uri": "ldm/queryspec/Contentinfo",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/ldm/queryspec/Contentinfo",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/ldm/queryspec/Contentinfo",
+                      "prettyName": "Contentinfo",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportAssessment",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportAssessment",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportAssessment",
+                      "prettyName": "OperationsSIGACTPublishedReportAssessment",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportAssessment_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportAssessment_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportAssessment_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportAssessment WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportCCIR",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportCCIR",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportCCIR",
+                      "prettyName": "OperationsSIGACTPublishedReportCCIR",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportCCIR_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportCCIR_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportCCIR_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportCCIR WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportCapture",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportCapture",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportCapture",
+                      "prettyName": "OperationsSIGACTPublishedReportCapture",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportCapture_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportCapture_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportCapture_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportCapture WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportCasualty",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportCasualty",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportCasualty",
+                      "prettyName": "OperationsSIGACTPublishedReportCasualty",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportCasualty_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportCasualty_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportCasualty_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportCasualty WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportChemicalsFound",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportChemicalsFound",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportChemicalsFound",
+                      "prettyName": "OperationsSIGACTPublishedReportChemicalsFound",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportChemicalsFound_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportChemicalsFound_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportChemicalsFound_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportChemicalsFound WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportDrugsFound",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportDrugsFound",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportDrugsFound",
+                      "prettyName": "OperationsSIGACTPublishedReportDrugsFound",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportDrugsFound_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportDrugsFound_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportDrugsFound_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportDrugsFound WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportEquipmentFound",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportEquipmentFound",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportEquipmentFound",
+                      "prettyName": "OperationsSIGACTPublishedReportEquipmentFound",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportEquipmentFound_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportEquipmentFound_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportEquipmentFound_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportEquipmentFound WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportEvent",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportEvent",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportEvent",
+                      "prettyName": "OperationsSIGACTPublishedReportEvent",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportEvent_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportEvent_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportEvent_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportEvent WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportExternalImports",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportExternalImports",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportExternalImports",
+                      "prettyName": "OperationsSIGACTPublishedReportExternalImports",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportExternalImports_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportExternalImports_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportExternalImports_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportExternalImports WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportIndirectFire",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportIndirectFire",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportIndirectFire",
+                      "prettyName": "OperationsSIGACTPublishedReportIndirectFire",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportIndirectFire_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportIndirectFire_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportIndirectFire_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportIndirectFire WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportIntelAnalysis",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportIntelAnalysis",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportIntelAnalysis",
+                      "prettyName": "OperationsSIGACTPublishedReportIntelAnalysis",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportIntelAnalysis_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportIntelAnalysis_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportIntelAnalysis_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportIntelAnalysis WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportItem",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportItem",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportItem",
+                      "prettyName": "OperationsSIGACTPublishedReportItem",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportItem_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportItem_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportItem_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportItem WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportLocation",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportLocation",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportLocation",
+                      "prettyName": "OperationsSIGACTPublishedReportLocation",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportLocation_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportLocation_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportLocation_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportLocation WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportMOA",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportMOA",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportMOA",
+                      "prettyName": "OperationsSIGACTPublishedReportMOA",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportMOA_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportMOA_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportMOA_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportMOA WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportMethodFound",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportMethodFound",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportMethodFound",
+                      "prettyName": "OperationsSIGACTPublishedReportMethodFound",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportMethodFound_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportMethodFound_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportMethodFound_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportMethodFound WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportRequirements",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportRequirements",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportRequirements",
+                      "prettyName": "OperationsSIGACTPublishedReportRequirements",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportRequirements_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportRequirements_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportRequirements_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportRequirements WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportSuspect",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportSuspect",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportSuspect",
+                      "prettyName": "OperationsSIGACTPublishedReportSuspect",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportSuspect_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportSuspect_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportSuspect_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportSuspect WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportTarget",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportTarget",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportTarget",
+                      "prettyName": "OperationsSIGACTPublishedReportTarget",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportTarget_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportTarget_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportTarget_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportTarget WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportUnits",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportUnits",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportUnits",
+                      "prettyName": "OperationsSIGACTPublishedReportUnits",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportUnits_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportUnits_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportUnits_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportUnits WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportVehicle",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportVehicle",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportVehicle",
+                      "prettyName": "OperationsSIGACTPublishedReportVehicle",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReportVehicle_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReportVehicle_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReportVehicle_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReportVehicle WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/AssociatedReports",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/AssociatedReports",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/AssociatedReports",
+                      "prettyName": "AssociatedReports",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/AssociatedReports_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/AssociatedReports_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/AssociatedReports_WebTAS",
+                      "prettyName": "AssociatedReports WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/Media",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/Media",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/Media",
+                      "prettyName": "Media",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/Media_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/Media_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/Media_WebTAS",
+                      "prettyName": "Media WebTAS",
+                      "properties": {}
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReport",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReport",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReport",
+                      "prettyName": "OperationsSIGACTPublishedReport",
+                      "properties": {
+                          "test": "true"
+                      }
+                  },
+                  {
+                      "uri": "NGIC/queryspec/OperationsSIGACTPublishedReport_WebTAS",
+                      "url": "https://ngic-we.field.issinc.com/we-data-service/cdf/metadata/NGIC/queryspec/OperationsSIGACTPublishedReport_WebTAS",
+                      "executeUrl": "https://ngic-we.field.issinc.com/we-data-service/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReport_WebTAS",
+                      "prettyName": "OperationsSIGACTPublishedReport WebTAS",
+                      "properties": {
+                          "test4": "1",
+                          "test2": "false",
+                          "test3": "string",
+                          "test": "true"
+                      }
+                  }
+              ]
+          }
+      ]
+  }
+}

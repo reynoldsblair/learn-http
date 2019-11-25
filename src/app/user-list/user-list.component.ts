@@ -16,11 +16,11 @@ export class UserListComponent implements OnInit {
   constructor(public usersService: UsersService) { }
 
   ngOnInit() {
-    this.usersService.getUsers();
     this.usersSub = this.usersService.getUsersUpdatedListener()
     .subscribe((users: User[]) => {
       this.users = users;
     });
+    this.usersService.getUsers();
   }
 
 }
