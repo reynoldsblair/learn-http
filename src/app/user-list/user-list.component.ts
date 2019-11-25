@@ -20,7 +20,6 @@ export class UserListComponent implements OnInit {
     this.usersSub = this.usersService.getUsersUpdatedListener()
     .subscribe((users: User[]) => {
       this.users = users;
-      console.log(users);
     });
   }
 
