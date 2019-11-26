@@ -17,7 +17,7 @@ export class CdfDataComponent implements OnInit {
 
   ngOnInit() {
     this.sigactSub = this.cdfDataService.getCdfDataUpdatedListener()
-    .subscribe((sigacts: Sigact[]) => {
+    .subscribe((sigacts: any[]) => {
       this.sigacts = sigacts;
     });
     this.cdfDataService.getCdfData();
