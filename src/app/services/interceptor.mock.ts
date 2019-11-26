@@ -12,11 +12,11 @@ const urls = [
     json: users
   },
   {
-    url: 'https://ngic-we.field.issinc.com/app-proxy/_webtas_data_service_v1/cdf/metadata-ql?query={informationModels{querySpecs{uri,url,executeUrl, prettyName,properties}}}',
+    url: '/app-proxy/_webtas_data_service_v1/cdf/metadata-ql?query={informationModels{querySpecs{uri,url,executeUrl,prettyName,properties}}}',
     json: querySpecs
   },
   {
-    url: 'https://ngic-we.field.issinc.com/app-proxy/_webtas_data_service_v1/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReport?$rows=100',
+    url: '/app-proxy/_webtas_data_service_v1/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReport?$rows=100',
     json: sigacts
   }
 ];

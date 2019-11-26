@@ -16,9 +16,8 @@ export class CdfDataService {
   constructor(private http: HttpClient, private router: Router) { }
 
   getCdfData() {
-    debugger;
     this.http.get<any>(
-      'https://ngic-we.field.issinc.com/app-proxy/_webtas_data_service_v1/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReport?$rows=100'
+      '/app-proxy/_webtas_data_service_v1/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReport?$rows=100'
       )
       .pipe(map((res) => {
         return res.data.map(sigact => {
