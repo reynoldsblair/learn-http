@@ -17,7 +17,7 @@ export class QuerySpecsService {
 
   getQuerySpecs() {
     this.http.get<any>(
-      'https://ngic-we.field.issinc.com/app-proxy/_webtas_data_service_v1/cdf/metadata-ql?query={informationModels{querySpecs{uri,url,executeUrl, prettyName,properties}}}'
+      'https://ngic-we.field.issinc.com/app-proxy/_webtas_data_service_v1/cdf/metadata-ql?query={informationModels{querySpecs{uri,url,executeUrl,prettyName,properties}}}'
       )
       .pipe(map((res) => {
         return res.data.informationModels[0].querySpecs.map(querySpec => {
