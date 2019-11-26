@@ -3,5 +3,5 @@ export interface QuerySpec {
   url: string;
   executeUrl: string;
   prettyName: string;
-  properties: string[];
+  properties?: string[];
 }

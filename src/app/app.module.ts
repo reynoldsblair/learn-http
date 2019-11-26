@@ -10,6 +10,7 @@ import { UserListComponent } from './user-list/user-list.component';
 import { HttpRequestInterceptor } from './services/interceptor';
 import { HttpMockRequestInterceptor } from './services/interceptor.mock';
 import { QuerySpecsComponent } from './query-specs/query-specs.component';
+import { CdfDataComponent } from './cdf-data/cdf-data.component';
 
 export const isMock = environment.mock;
 
@@ -17,7 +18,8 @@ export const isMock = environment.mock;
   declarations: [
     AppComponent,
     UserListComponent,
-    QuerySpecsComponent
+    QuerySpecsComponent,
+    CdfDataComponent
   ],
   imports: [
     BrowserModule,

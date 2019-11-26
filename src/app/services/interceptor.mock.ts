@@ -4,15 +4,20 @@ import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest, HttpResponse } fr
 import { Observable, of } from 'rxjs';
 import * as users from '../../assets/mockData/users.json';
 import * as querySpecs from '../../assets/mockData/querySpecs.json';
+import * as sigacts from '../../assets/mockData/sigacts.json';
 
 const urls = [
   {
-      url: 'https://jsonplaceholder.typicode.com/users',
-      json: users
+    url: 'https://jsonplaceholder.typicode.com/users',
+    json: users
   },
   {
     url: 'https://ngic-we.field.issinc.com/app-proxy/_webtas_data_service_v1/cdf/metadata-ql?query={informationModels{querySpecs{uri,url,executeUrl, prettyName,properties}}}',
     json: querySpecs
+  },
+  {
+    url: 'https://ngic-we.field.issinc.com/app-proxy/_webtas_data_service_v1/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReport?$rows=100',
+    json: sigacts
   }
 ];
 
