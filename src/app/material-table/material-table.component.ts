@@ -23,24 +23,25 @@ export class MaterialTableComponent implements OnInit, OnDestroy {
   cdfData: any[] = [];
   private cdfSub: Subscription;
   columns: string[] = [];
+  isLoading = false;
 
   constructor(public cdfDataService: CdfDataService) { }
 
   ngOnInit() {
+    this.isLoading = true;
     this.cdfSub = this.cdfDataService.getCdfDataUpdatedListener()
     .subscribe((cdfData: any[]) => {
       this.cdfData = cdfData;
     });
     this.cdfDataService.getCdfData();
     this.getColumns();
+    this.isLoading = false;
   }
 
   getColumns() {
     Object.keys(this.cdfData[0]).forEach(Key => {
-      console.log(Key);
       this.columns.push(Key);
     });
-    console.log(this.columns);
   }
 
   ngOnDestroy() {

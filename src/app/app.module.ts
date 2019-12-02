@@ -28,6 +28,8 @@ import { UserListComponent } from './user-list/user-list.component';
 import { HomeComponent } from './home/home.component';
 import { DataTestComponent } from './data-test/data-test.component';
 import { MaterialTableComponent } from './material-table/material-table.component';
+import { AgGridComponent } from './ag-grid/ag-grid.component';
+import { FlexMonsterComponent } from './flex-monster/flex-monster.component';
 
 export const isMock = environment.mock;
 
@@ -40,7 +42,9 @@ export const isMock = environment.mock;
     HeaderComponent,
     HomeComponent,
     DataTestComponent,
-    MaterialTableComponent
+    MaterialTableComponent,
+    AgGridComponent,
+    FlexMonsterComponent
   ],
   imports: [
     BrowserModule,

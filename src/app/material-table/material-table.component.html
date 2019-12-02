@@ -1,4 +1,5 @@
-<table mat-table [dataSource]="cdfData" class="mat-elevation-z8">
+<mat-spinner *ngIf="isLoading"></mat-spinner>
+<table *ngIf="!isLoading" mat-table [dataSource]="cdfData" class="mat-elevation-z8">
   <ng-container [matColumnDef]="column" *ngFor="let column of columns">
     <th mat-header-cell *matHeaderCellDef> {{ column }} </th>
     <td mat-cell *matCellDef="let element"> {{ element[column] }} </td>

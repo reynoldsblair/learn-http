@@ -11,14 +11,17 @@ import { CdfDataService } from '../services/cdf-data.service';
 export class CdfDataComponent implements OnInit {
   cdfData: any[] = [];
   private cdfSub: Subscription;
+  isLoading = false;
 
   constructor(public cdfDataService: CdfDataService) { }
 
   ngOnInit() {
+    this.isLoading = true;
     this.cdfSub = this.cdfDataService.getCdfDataUpdatedListener()
     .subscribe((cdfData: any[]) => {
       this.cdfData = cdfData;
     });
+    this.isLoading = false;
     this.cdfDataService.getCdfData();
   }
 
