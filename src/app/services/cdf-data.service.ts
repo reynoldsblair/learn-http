@@ -10,8 +10,8 @@ import { Sigact } from '../models/sigact.model';
   providedIn: 'root'
 })
 export class CdfDataService {
-  private sigacts: Sigact[] = [];
-  private sigactsUpdated = new Subject<Sigact[]>();
+  private cdfData: any[] = [];
+  private cdfDataUpdated = new Subject<any[]>();
 
   constructor(private http: HttpClient, private router: Router) { }
 
@@ -19,7 +19,7 @@ export class CdfDataService {
     this.http.get<any>(
       '/app-proxy/_webtas_data_service_v1/cdf/data/NGIC/queryspec/OperationsSIGACTPublishedReport?$rows=100'
       )
-      .pipe(map((res) => {
+      /* .pipe(map((res) => {
         return res.data.map(sigact => {
           return {
             complexAttack: sigact.ComplexAttack,
@@ -122,15 +122,15 @@ export class CdfDataService {
             hostNationWia: sigact.HostNationWIA,
           };
         });
-      }))
+      })) */
     .subscribe(fetchedCdfData => {
-      this.sigacts = fetchedCdfData;
-      this.sigactsUpdated.next([...this.sigacts]);
+      this.cdfData = fetchedCdfData.data;
+      this.cdfDataUpdated.next([...this.cdfData]);
     });
   }
 
   getCdfDataUpdatedListener() {
-    return this.sigactsUpdated.asObservable();
+    return this.cdfDataUpdated.asObservable();
   }
 }
 

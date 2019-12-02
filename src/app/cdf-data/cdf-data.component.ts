@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
 import { CdfDataService } from '../services/cdf-data.service';
-import { Sigact } from '../models/sigact.model';
 
 @Component({
   selector: 'app-cdf-data',
@@ -10,15 +9,15 @@ import { Sigact } from '../models/sigact.model';
   styleUrls: ['./cdf-data.component.css']
 })
 export class CdfDataComponent implements OnInit {
-  sigacts: Sigact[] = [];
-  private sigactSub: Subscription;
+  cdfData: any[] = [];
+  private cdfSub: Subscription;
 
   constructor(public cdfDataService: CdfDataService) { }
 
   ngOnInit() {
-    this.sigactSub = this.cdfDataService.getCdfDataUpdatedListener()
-    .subscribe((sigacts: any[]) => {
-      this.sigacts = sigacts;
+    this.cdfSub = this.cdfDataService.getCdfDataUpdatedListener()
+    .subscribe((cdfData: any[]) => {
+      this.cdfData = cdfData;
     });
     this.cdfDataService.getCdfData();
   }

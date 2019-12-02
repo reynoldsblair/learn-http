@@ -1,16 +1,33 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import {
+  HttpClientModule,
+  HTTP_INTERCEPTORS
+ } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {
+  MatToolbarModule,
+  MatButtonModule,
+  MatTableModule,
+  MatInputModule,
+  MatPaginatorModule,
+  MatSortModule,
+  MatProgressSpinnerModule
+} from '@angular/material';
 
 import { environment } from 'src/environments/environment';
 
 import { AppComponent } from './app.component';
-import { UserListComponent } from './user-list/user-list.component';
+import { CdfDataComponent } from './cdf-data/cdf-data.component';
+import { HeaderComponent } from './header/header.component';
 import { HttpRequestInterceptor } from './services/interceptor';
 import { HttpMockRequestInterceptor } from './services/interceptor.mock';
 import { QuerySpecsComponent } from './query-specs/query-specs.component';
-import { CdfDataComponent } from './cdf-data/cdf-data.component';
+import { UserListComponent } from './user-list/user-list.component';
+import { HomeComponent } from './home/home.component';
+import { DataTestComponent } from './data-test/data-test.component';
+import { MaterialTableComponent } from './material-table/material-table.component';
 
 export const isMock = environment.mock;
 
@@ -19,12 +36,24 @@ export const isMock = environment.mock;
     AppComponent,
     UserListComponent,
     QuerySpecsComponent,
-    CdfDataComponent
+    CdfDataComponent,
+    HeaderComponent,
+    HomeComponent,
+    DataTestComponent,
+    MaterialTableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatTableModule,
+    MatInputModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatProgressSpinnerModule
   ],
   providers: [
     {
