@@ -1,16 +1,8 @@
 import {
   Component,
   OnInit,
-  OnDestroy,
-  ViewChild } from '@angular/core';
-import {
-  MatPaginator,
-  MatTableDataSource } from '@angular/material';
-import { DataSource } from '@angular/cdk/collections';
-import {
-  Subscription,
-  Observable,
-  of } from 'rxjs';
+  OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
 
 import { CdfDataService } from '../services/cdf-data.service';
 

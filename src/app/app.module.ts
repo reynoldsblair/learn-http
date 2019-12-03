@@ -15,6 +15,7 @@ import {
   MatSortModule,
   MatProgressSpinnerModule
 } from '@angular/material';
+import { AgGridModule } from '@ag-grid-community/angular';
 
 import { environment } from 'src/environments/environment';
 
@@ -57,7 +58,8 @@ export const isMock = environment.mock;
     MatInputModule,
     MatPaginatorModule,
     MatSortModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    AgGridModule.withComponents([])
   ],
   providers: [
     {
