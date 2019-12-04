@@ -17,14 +17,14 @@ import { CdfDataService } from '../services/cdf-data.service';
 })
 export class AgGridComponent implements OnInit {
   @ViewChild('agGrid', {static: false}) agGrid: AgGridAngular;
-  private gridApi;
-  private gridColumnApi;
-  private modules: Module[] = AllModules;
+  gridApi: any;
+  gridColumnApi: any;
+  modules: Module[] = AllModules;
 
-  private columnDefs;
-  private defaultColDef: any;
-  private rowData: any[];
-  private sideBar;
+  columnDefs: any;
+  defaultColDef: any;
+  rowData: any[];
+  sideBar: any;
 
   private cdfSub: Subscription;
   isLoading = false;
