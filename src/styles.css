@@ -3,5 +3,6 @@
 @import "~@ag-grid-enterprise/all-modules/dist/styles/ag-theme-balham.css";
 @import "~@ag-grid-enterprise/all-modules/dist/styles/ag-theme-dark.css";
 @import "~@ag-grid-enterprise/all-modules/dist/styles/ag-theme-blue.css";
+@import "flexmonster/flexmonster.min.css";
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

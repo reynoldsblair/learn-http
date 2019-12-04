@@ -16,6 +16,7 @@ import {
   MatProgressSpinnerModule
 } from '@angular/material';
 import { AgGridModule } from '@ag-grid-community/angular';
+import { FlexmonsterPivotModule } from 'ng-flexmonster';
 
 import { environment } from 'src/environments/environment';
 
@@ -59,6 +60,7 @@ export const isMock = environment.mock;
     MatPaginatorModule,
     MatSortModule,
     MatProgressSpinnerModule,
+    FlexmonsterPivotModule,
     AgGridModule.withComponents([])
   ],
   providers: [
