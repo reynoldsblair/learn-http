@@ -171,5 +171,6 @@ onGridReady(params) {
     const selectedData = selectedNodes.map( node => node.data );
     const selectedDataStringPresentation = selectedData.map( node => node.TrackingNumber + ' ' + node.Title).join(', ');
     alert(`Selected nodes: ${selectedDataStringPresentation}`);
+    console.log(selectedData);
   }
 }
